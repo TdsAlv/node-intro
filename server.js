@@ -17,9 +17,9 @@ app.use(function(req, res, next) {
   next();
 });
 
-app.use(function(req, res, next) {
-  res.render('maintenance.hbs');
-})
+// app.use(function(req, res, next) {
+//   res.render('maintenance.hbs');
+// })
 
 app.use(express.static(__dirname + '/public'));
 
